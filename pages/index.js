@@ -64,7 +64,7 @@ export default function Landing() {
         >Gelasio Gaetani D 'Aragona</h1>
 
         <div className="flex flex-wrap justify-center">
-          <img src='/main.webp'
+          <img src='/gelasio-gaetani/main.webp'
             width={265}
             style={{ margin: '2em 0' }}
           />
