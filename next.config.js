@@ -3,8 +3,8 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/gelasio-gaetani/',
-  assetPrefix: ''
+  basePath: '',
+  assetPrefix: '/gelasio-gaetani/'
 }
 
 module.exports = nextConfig
