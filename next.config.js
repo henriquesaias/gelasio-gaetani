@@ -3,7 +3,7 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '',
+  basePath: '/gelasio-gaetani/',
   assetPrefix: ''
 }
 
