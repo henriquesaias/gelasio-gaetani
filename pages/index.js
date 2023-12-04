@@ -129,6 +129,7 @@ export default function Landing() {
                       href="https://wa.me/393355623329"
                       target="_blank"
                       rel="noreferrer noopener"
+                      style={{ textDecoration: 'underline' }}
                     >
                       +39 335 562 3329
                     </a><br />

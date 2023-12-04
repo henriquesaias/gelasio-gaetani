@@ -6,7 +6,11 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta charSet="utf-8" />  
+          <title>Gelasio Gaetani D'Aragona</title>
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="canonical" href="https://www.gelasiogaetani.com" />
+          <meta name="description" content="Specialists in the world of Italian wines. From biological and cultural lineage to modern day company ethos and methods." />
         </Head>
         <body className="text-blueGray-700 antialiased">
           <Main />
