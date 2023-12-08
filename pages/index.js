@@ -63,6 +63,7 @@ export default function Landing() {
 
         <div className="flex flex-wrap justify-center">
           <img
+            alt="Artwork by Carlito Dalceggio"
             src='main.webp'
             width={265}
             style={{ margin: '2em 0' }}
@@ -117,12 +118,9 @@ export default function Landing() {
                 }
               } >
                 <div className="flex-auto p-5 lg:p-10" >
-                  <h4
-                    id='contact'
-                    className="text-2xl font-semibold text-center"
-                  >
+                  <h2 id='contact' className="text-2xl font-semibold text-center">
                     Contact
-                  </h4>
+                  </h2>
                   <p className="leading-relaxed mt-1 mb-4 text-blueGray-500 text-center">
                     Samba Gaetani<br />
                     <a
