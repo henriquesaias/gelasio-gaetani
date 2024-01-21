@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import {
   init
 } from 'emailjs-com';
-init("user_i3doLEc81aiVPkLWcqVLx");
+init("dqy6JqfFaI5Q77J6Z");
 
 export default function Landing() {
   const [name, setName] = React.useState('');
@@ -20,7 +20,7 @@ export default function Landing() {
     };
 
     if (name.length && email.includes('@') && message.length > 2) {
-      emailjs.send('service_avldh1k', 'lxzajri', templateParams)
+      emailjs.send('service_8xhvy1t', 'lxzajri', templateParams)
         .then(function (response) {
           console.log('email sent')
           setUserFeedback('Email sent')
